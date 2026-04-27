@@ -9,30 +9,26 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_38vmc")
-margin_bottom = 32
-margin_left = 32
-margin_right = 32
-margin_top = 32
 
 [node name="Top" type="HBoxContainer" parent="." unique_id=10028450]
 layout_mode = 2
 
 [node name="TopLeft" type="Control" parent="Top" unique_id=647734646]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(32, 32)
+custom_minimum_size = Vector2(4, 4)
 layout_mode = 2
 mouse_default_cursor_shape = 12
 
 [node name="Top" type="Control" parent="Top" unique_id=1201084699]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(0, 32)
+custom_minimum_size = Vector2(0, 4)
 layout_mode = 2
 size_flags_horizontal = 3
 mouse_default_cursor_shape = 9
 
 [node name="TopRight" type="Control" parent="Top" unique_id=563259639]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(32, 32)
+custom_minimum_size = Vector2(4, 4)
 layout_mode = 2
 mouse_default_cursor_shape = 11
 
@@ -42,13 +38,13 @@ size_flags_vertical = 3
 
 [node name="Left" type="Control" parent="Middle" unique_id=1570428590]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(32, 0)
+custom_minimum_size = Vector2(4, 0)
 layout_mode = 2
 mouse_default_cursor_shape = 10
 
 [node name="Right" type="Control" parent="Middle" unique_id=1649834478]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(32, 0)
+custom_minimum_size = Vector2(4, 0)
 layout_mode = 2
 size_flags_horizontal = 10
 mouse_default_cursor_shape = 10
@@ -58,20 +54,20 @@ layout_mode = 2
 
 [node name="BottomLeft" type="Control" parent="Bottom" unique_id=137161490]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(32, 32)
+custom_minimum_size = Vector2(4, 4)
 layout_mode = 2
 mouse_default_cursor_shape = 11
 
 [node name="Bottom" type="Control" parent="Bottom" unique_id=310051696]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(0, 32)
+custom_minimum_size = Vector2(0, 4)
 layout_mode = 2
 size_flags_horizontal = 3
 mouse_default_cursor_shape = 9
 
 [node name="BottomRight" type="Control" parent="Bottom" unique_id=1288130803]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(32, 32)
+custom_minimum_size = Vector2(4, 4)
 layout_mode = 2
 mouse_default_cursor_shape = 12
 
